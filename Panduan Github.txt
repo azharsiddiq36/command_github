@@ -1,0 +1,29 @@
+//first init
+git config --global user.name "azharsiddiq"
+git config --global user.email "azharsiddiq36@gmail.com"
+
+-----------
+//check status configurasi
+git config status
+
+----------
+//replace
+git config --global --replace user.name "your username"
+
+//init 
+git init //jika sudah didalam folder yang diigningkan
+git init (namefolder) //jika ingin membuat folder baru hilangkan tanda kurung pembuka '(' dan kurung penutup ')'
+
+//check status *harus di folder 
+git status
+
+//commit 
+git commit -m "first commit"
+
+//connect denga repo di github
+git remote add origin "YOUR REPOSITORY URL"
+
+//push
+git push origin master
+
+*masih banyak yg lain, ntar di update
