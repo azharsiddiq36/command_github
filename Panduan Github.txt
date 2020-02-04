@@ -20,8 +20,14 @@ git status
 //commit 
 git commit -m "first commit"
 
-//connect denga repo di github
+//connect dengan repo di github
 git remote add origin "YOUR REPOSITORY URL"
+
+//melihat daftar link remote
+git remote -v
+
+//menghapus list remote
+git remote rm "NAMA REMOTE"
 
 //push
 git push origin master
