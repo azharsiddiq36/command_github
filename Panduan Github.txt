@@ -35,3 +35,10 @@ git push origin master
 //clone
 git clone (repository)
 *masih banyak yg lain, ntar di update
+
+//pull (Mengambil data terbaru dari remote server dan menggabungkannya)
+git pull origin master
+
+//fetch(Seperti pull tetapi tidak digabung)
+git fetch origin master
+
